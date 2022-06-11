@@ -40,7 +40,7 @@ Temporary Items
 ### Test ###
 ### Ignore all files that could be used to test your code and
 ### you wouldn't want to push
-**/TestResults/**
+TestResults
 
 # Visual Studio
 **/.vs/**
