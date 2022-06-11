@@ -1,0 +1,29 @@
+﻿        //////////////-----------------------><----------------------\\\\\\\\\\\\\\\\
+       //                                                                           \\
+      //   VALID INPUT FILES                                                         \\
+     //    =================                                                          \\ 
+    //                                                                                 \\
+   //     input1.txt          -------------->         Valid File                        \\
+  //      input2.txt          -------------->         Valid File with Topup              \\
+ //                                                                                       \\
+//        INVALID INPUT FILES                                                              \\
+\\        ===================                                                              //
+ \\                                                                                       //
+  \\      input3.txt          -------------->         Invalid Date                       //
+   \\     input4.txt          -------------->         No Plans                          //
+    \\    input5.txt          -------------->         Duplicate Plans                  //
+     \\   input6.txt          -------------->         Duplicate Topups                //
+      \\  input7.txt          -------------->         No Plans with Topup            //
+      //  input8.txt          -------------->         Empty File                     \\
+     //   input9.txt          -------------->         StartDate Missing               \\
+    //    input10.txt         -------------->         Duplicate StartDate              \\
+   //     input11.txt         -------------->         Invalid Arguments for Plan        \\
+  //      input12.txt         -------------->         Invalid Arguments for Topup        \\
+ //       input13.txt         -------------->         Invalid Topup Month                 \\
+//        input14.txt         -------------->         Duplicate RequestRenewal             \\
+\\        input15.txt         -------------->         Invalid Arguments for RequestRenewal //
+ \\       input16.txt         -------------->         Invalid Arguments for StartDate     //
+  \\      input17.txt         -------------->         Valid File with Topup &            //
+   \\                                                   no Request Renewal Requested    //
+    \\                                                                                 //
+     \\\\\\\\\\\\\\\\\-----------------------><----------------------///////////////////
