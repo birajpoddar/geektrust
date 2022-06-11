@@ -11,7 +11,7 @@
 # Icon must end with two \r
 Icon
 
-# Include Tests Project
+# Exclude main project executable Project
 GeekTrust/geektrust/**
 
 # Thumbnails
@@ -40,14 +40,14 @@ Temporary Items
 ### Test ###
 ### Ignore all files that could be used to test your code and
 ### you wouldn't want to push
-!GeekTrustTests/**
+**/TestResults/**
 
 # Visual Studio
-/**/.vs/**
+**/.vs/**
 
 # MS Build
-/**/bin/**
-/**/obj/**
+**/bin/**
+**/obj/**
 
 # Reference https://en.wikipedia.org/wiki/Metasyntactic_variable
 
