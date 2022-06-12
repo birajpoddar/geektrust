@@ -7,10 +7,10 @@ namespace GeekTrust.Utils
 	class UtilityFunctions
 	{
 		// Transforms String to DateOnly
-		public static DateOnly? TransformStringToDate(string str)
+		public static DateTime? TransformStringToDate(string str)
         {
 			// Try to parse the Date to valid format
-			var flag = DateOnly.TryParse(
+			var flag = DateTime.TryParse(
 				str,
 				new CultureInfo("en-IN"),
 				DateTimeStyles.None,

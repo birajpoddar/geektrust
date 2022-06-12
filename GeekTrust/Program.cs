@@ -27,7 +27,6 @@ namespace GeekTrust
             set { ProgramHelper.responseMessages = value; }
         }
 
-
         public static void Main(params string[] args)
         {
             try
@@ -59,7 +58,6 @@ namespace GeekTrust
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                Console.ReadLine();
             }
         }
 

@@ -3,6 +3,7 @@ using System.IO;
 
 namespace GeekTrustTests.Helper
 {
+    // Get the Output from Console
     public class ConsoleOutput : IDisposable
     {
         private StringWriter stringWriter;

@@ -8,6 +8,8 @@ namespace GeekTrust.Repositories
 	{
 		DbSet<Plan> Plans { get; set; }
 		DbSet<TopUp> TopUps { get; set; }
+
+		void SaveChanges();
 	}
 }
 

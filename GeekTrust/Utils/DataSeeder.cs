@@ -9,10 +9,10 @@ namespace GeekTrust.Utils
 {
     class DataSeeder : IDataSeeder
     {
-        private DoReMiContext _context;
-        private ILogger _logger;
+        private readonly IDbContext _context;
+        private readonly ILogger _logger;
 
-        public DataSeeder(DoReMiContext context, ILogger<DataSeeder> logger)
+        public DataSeeder(IDbContext context, ILogger<DataSeeder> logger)
         {
             _context = context;
             _logger = logger;

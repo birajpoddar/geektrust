@@ -5,7 +5,7 @@ namespace GeekTrust.Models
 {
 	class Request
 	{
-		public DateOnly StartDate { get; set; }
+		public DateTime StartDate { get; set; }
 		public List<RequestedPlan> RequestedPlans { get; set; }
 		public RequestedTopup RequestedTopupPlan { get; set; }
 		public bool PrintRenewalDetails { get; set; }

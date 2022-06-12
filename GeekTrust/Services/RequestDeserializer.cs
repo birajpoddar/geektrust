@@ -27,7 +27,7 @@ namespace GeekTrust.Services
                 switch (req[0].ToUpper())
                 {
                     case "START_SUBSCRIPTION":
-                        request.StartDate = (DateOnly)Utils.UtilityFunctions.TransformStringToDate(req[1]);
+                        request.StartDate = (DateTime)Utils.UtilityFunctions.TransformStringToDate(req[1]);
                         break;
                     case "ADD_SUBSCRIPTION":
                         request.RequestedPlans.Add(new RequestedPlan() { Name = req[1].ToUpper(), Type = req[2].ToUpper() });

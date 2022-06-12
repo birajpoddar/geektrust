@@ -74,7 +74,7 @@ namespace GeekTrust.Services
         }
 
         // Calculates Renewal Reminder Date for Plan
-        private string CalculateRenewalReminderDate(DateOnly startDate, int periodInMonths)
+        private string CalculateRenewalReminderDate(DateTime startDate, int periodInMonths)
         {
             // Calculates Renewal Date
             var renewalDate = startDate.AddMonths(periodInMonths);

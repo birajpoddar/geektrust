@@ -6,7 +6,7 @@ namespace GeekTrust.Models
 {
     class DoReMiContext : DbContext, IDbContext
 	{
-		private ILogger _logger;
+		private readonly ILogger _logger;
 
 		public DoReMiContext(DbContextOptions options, ILogger<DoReMiContext> logger) : base(options)
 		{
@@ -22,6 +22,11 @@ namespace GeekTrust.Models
 			// Defining Unique Keys for both Tables
 			modelBuilder.Entity<Plan>().HasAlternateKey(p => new { p.Name, p.Type });
 			modelBuilder.Entity<TopUp>().HasAlternateKey(t => new { t.Name, t.NumberOfDevicesSupported });
+        }
+
+		public new void SaveChanges()
+        {
+			base.SaveChanges();
         }
     }
 }
